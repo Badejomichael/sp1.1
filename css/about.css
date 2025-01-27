@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: #ffc96f;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: white;
+  padding-bottom: 0;
+  border-bottom: 2px white solid;
+  transition: 0.3s ease-out;
+}
+
+.active:hover {
+  padding-bottom: 0;
+  border-bottom: 2px black solid;
+}
+
+/* .navbar {
+  animation: zoom-in 0.9s;
+} */
+
+.account {
+  padding-right: 60px;
+}
+
+.user-profile {
+  width: 40px;
+}
+
+.user-profile:hover {
+  filter: contrast(0) brightness(100);
+}
+
+.account {
+  filter: contrast(0) brightness(100);
+  border: none;
+}
+
+.account.active {
+  border: none;
+}
+
+.hero-section {
+  background: url("../assets/bi.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+  padding-top: 170px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home-image {
+  filter: contrast(0) brightness(100);
+  width: 50px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding-right: 4px;
+  margin-bottom: 5px;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 7px;
+}
+
+.hero-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.home-link {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+} 
+
+
+/* story-section */
+.story-section {
+  margin-top: 50px;
+}
+
+.story-section .row {
+  align-items: center;
+}
+
+.story-section h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.story-image img {
+  width: 100%;
+}
+
+.story-text p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+  .products-section {
+    background-color: #f9f9f9;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .products-section h2 {
+    font-weight: bold;
+    font-size: 2.3rem;
+  }
+
+  .products {
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+
+  .products .row {
+    align-items: center;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .productt {
+    margin-top: 30px;
+  }
+
+  .hero-txt {
+    text-align: center;
+  }
+
+  .text a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px black solid;
+    transition: color 0.2s;
+  }
+
+  .text a:hover {
+    color: #ffc96f;
+    border-bottom: 2px #ffc96f solid;
+  }
+
+  .text h3{
+    transition: transform 0.2s ease-in;
+  }
+
+  .text h3:hover{
+    transform: translateY(-3px);
+  }
+
+  .images {
+    width: 90%;
+    height: 270px;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+  }
+
+  .arrow {
+    width: 15px;
+    filter: contrast(0) brightness(100);
+    margin-right: 5px;
+  }
+
+  .buttonn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .buttonn a {
+    padding: 8px;
+  }
+
+.slider-container {
+  margin: 0 auto;
+  width: 80%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slide .card {
+  padding: 10px;
+  padding-top: 2px;
+}
+
+.categories {
+  margin-top: 10px;
+}
+
+.testimonials h2 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+.testimonials .testimonials-card {
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffc96f;
+}
+
+.testimonials .testimonials-card .stars {
+  font-size: 1.5rem;
+}
+
+.testimonials .testimonials-card .name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.testimonial-footer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.testimonials {
+  margin-bottom: 50px;
+} 
+
+.footer {
+  background-color: #ffc96f;
+  margin-bottom: -100px;
+  
+}
+
+.a {
+  color: black;
+}
+
+.a:hover {
+  border-bottom: none;
+  color: white;
+}
+
+.footer-logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: auto 0;
+}
+
+.social-media{
+  transition: all 0.2s ;
+}
+
+.social-media:hover{
+  filter: contrast(0) brightness(100);
+  transform: translateY(-4px);
+}
+
+.b {
+  border-top: 1.5px solid white;
+}
+
+/* responsiveness */
+
+@media (max-width: 991px) {
+  .nav-link:hover {
+    width: 100px;
+  }
+
+  .cart-button{
+    position: absolute;
+    top: 15px;
+    left: 60vw;
+  }
+
+  .product1 {
+    flex-direction: column-reverse;
+  }
+
+  .hero-category {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 471px) {
+  .shopayo {
+    font-size: 1rem;
+  }
+
+
+  .cart-button {
+    left: 45vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+  }
+  
+  .home-image {
+    width: 40px;
+  }
+}
